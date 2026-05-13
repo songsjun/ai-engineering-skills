@@ -19,15 +19,15 @@ Skill 之间的互斥关系见各自的 description 字段（"Do NOT use ... use
 | `adr` | Record an architectural decision with context, tradeoffs, and consequences. Use when a technology is chosen, a pattern i |
 | `code-review` | Structured code review across three independent dimensions: correctness, security, maintainability. Use for reviewing OT |
 | `context-init` | Initialize or update project context so the Agent works from real codebase evidence, not assumptions. Use at the start o |
-| `debug` | Structured debugging — find and fix the root cause, not the symptom. Use when something is broken: errors, unexpected  |
-| `explore` | Agentic solution exploration — when the problem space is unclear or multiple approaches exist. Agent concurrently expl |
+| `debug` | Structured debugging — find and fix the root cause, not the symptom. Use when something is broken: errors, unexpected be |
+| `explore` | Agentic solution exploration — when the problem space is unclear or multiple approaches exist. Agent concurrently explor |
 | `implementation-loop` | Use when implementing a scoped coding task. Break work into small reversible steps, preserve architecture boundaries, ru |
 | `product-scope` | Use before coding when a request is vague, broad, risky, product-facing, or needs scope control. Turns a request into a  |
 | `prompt-eval` | Use only for reusable AI prompt templates that have failure examples and measurable success criteria. Iteratively compar |
-| `review-gate` | Gate for YOUR OWN changes before commit/merge — classifies bugs P0-P4, checks tests and rollback safety, auto-resolves |
-| `ship` | Pre-deployment checklist and deployment process. Use before deploying to staging or production. Triggers: deploy, 部署 |
+| `review-gate` | Gate for YOUR OWN changes before commit/merge — classifies bugs P0-P4, checks tests and rollback safety, auto-resolves P |
+| `ship` | Pre-deployment checklist and deployment process. Use before deploying to staging or production. Triggers: deploy, 部署, 发布 |
 | `spec` | Write a product spec or technical design document. Use when writing spec, PRD, design doc, feature spec, technical propo |
-| `tdd` | Test-driven development — write the test first, then make it pass, then clean up. Use INSTEAD OF implementation-loop w |
+| `tdd` | Test-driven development — write the test first, then make it pass, then clean up. Use INSTEAD OF implementation-loop whe |
 | `ux-review` | | |
 
 ---
